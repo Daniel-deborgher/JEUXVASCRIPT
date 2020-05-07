@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+<style>
+
+
+    /* bannière et menu */
+
+#container{
+      display: flex;
+
+  }
+
+  #banner{
+      display: flex;
+      background: yellow;
+      
+  }
+
+  #navBar{
+      display: flex;
+      background: blue;
+  }
+
+  #navList{
+      display: flex;
+      justify-content: space-between;
+
+  }
+
+  #navList li{
+      list-style: none;
+
+  }
+
+  #navList a {
+      text-decoration: none;
+      color: white;
+      padding: 0 10px 0 10px; 
+
+  }
+
+
+    /* body */
+
+  body {
+        background-color:rgb(250, 249, 244);
+    } 
+    *{
+        padding: 0;
+        margin:0;
+    }
+    canvas {
+        background: #eeeeee; 
+        display: block;
+        margin: 0 auto;
+    }
+    h1 {
+
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .description-brique {
+        color: rgb(31, 34, 34);
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    canvas {
+        border: yellow 2px solid;
+    }
+
+
+</style>
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+
+    <section id="container">
+        <header id="banner">
+            <img src="" alt="">
+        </header>
+        <nav id="navBar">
+            <ul id='navList'>
+                <li><a href="">Mario</a></li>
+                <li><a href="">Casse-brique</a></li>
+                <li><a href="">Snake</a></li>
+            </ul>
+        </nav>
+
+    </section>
+
+
 <!--====================================================================ARTICLE JEUX================================================================-->    
 
     <div class="container">
