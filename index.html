@@ -10,7 +10,7 @@
 
     <section id="container">
         <header id="banner">
-            <img src="" alt="">
+            <img src="./ban-js.png" alt="">
         </header>
         <nav id="navBar">
             <ul id='navList'>
@@ -69,29 +69,39 @@
         /* bannière et menu */
     
     #container{
-          display: flex;
-    
+        
+        display: flex;
+        flex-wrap: wrap;
       }
     
       #banner{
-          display: flex;
           background: yellow;
+          width:100%;
+          
+          
+      }
+
+      #banner img{
+         width: 900px;
+         justify-content: center;
           
       }
     
       #navBar{
-          display: flex;
           background: blue;
+          width: 100%;
+          
       }
     
       #navList{
-          display: flex;
-          justify-content: space-between;
-    
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
       }
     
       #navList li{
           list-style: none;
+          
     
       }
     
@@ -107,7 +117,8 @@
     
       body {
             background-color:rgb(250, 249, 244);
-        } 
+        }
+
         *{
             padding: 0;
             margin:0;
